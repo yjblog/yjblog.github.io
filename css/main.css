@@ -1246,7 +1246,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #fffeff;
+  background: #47320b;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2211,14 +2211,6 @@ ul.breadcrumb li + li:last-child {
 .tag-cloud a:hover {
   color: #222 !important;
 }
-.gt-header a,
-.gt-comments a,
-.gt-popup a {
-  border-bottom: none;
-}
-.gt-container .gt-popup .gt-action.is--active::before {
-  top: 0.7em;
-}
 mjx-container[jax="CHTML"][display="true"],
 .has-jax {
   overflow: auto hidden;
@@ -2464,15 +2456,4 @@ hr {
 }
 .sub-menu .menu-item {
   display: inline-block;
-}
-@media screen and (min-width: 1200px) {
-  body {
-    background-image: url("/images/bird.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: 50% 50%;
-  }
-  #footer a {
-    color: #eee;
-  }
 }
