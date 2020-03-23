@@ -170,8 +170,8 @@ body {
 body {
   background: var(--body-bg-color);
   color: var(--text-color);
-  font-family: '华文新魏', "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 1.5em;
+  font-family: '华文中宋', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 1.3em;
   line-height: 2;
 }
 @media (max-width: 991px) {
@@ -186,7 +186,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: '华文新魏', '华文新魏', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: '华文中宋', '华文中宋', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-weight: bold;
   line-height: 1.5;
   margin: 20px 0 15px;
@@ -274,7 +274,7 @@ kbd {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-  font-size: 0.875em;
+  font-size: 0.8em;
   margin: 0 0 20px 0;
   width: 100%;
 }
@@ -310,7 +310,7 @@ td {
   border-radius: 0;
   color: var(--link-color);
   display: inline-block;
-  font-size: 0.875em;
+  font-size: 0.8em;
   line-height: 2;
   padding: 0 20px;
   text-decoration: none;
@@ -412,7 +412,7 @@ code {
   background: #eee;
   color: #4d4d4c;
   display: flex;
-  font-size: 0.875em;
+  font-size: 0.8em;
   justify-content: space-between;
   line-height: 1.2;
   padding: 0.5em;
@@ -454,7 +454,7 @@ pre {
 pre code {
   background: none;
   color: #4d4d4c;
-  font-size: 0.875em;
+  font-size: 0.8em;
   padding: 0;
   text-shadow: none;
 }
@@ -918,16 +918,16 @@ pre .javascript .function {
 }
 .main-inner {
   margin: 0 auto;
-  width: 1000px;
+  width: 900px;
 }
 @media (min-width: 1200px) {
   .main-inner {
-    width: 1100px;
+    width: 1000px;
   }
 }
 @media (min-width: 1600px) {
   .main-inner {
-    width: 1200px;
+    width: 1100px;
   }
 }
 .header {
@@ -935,16 +935,16 @@ pre .javascript .function {
 }
 .header-inner {
   margin: 0 auto;
-  width: 1000px;
+  width: 900px;
 }
 @media (min-width: 1200px) {
   .header-inner {
-    width: 1100px;
+    width: 1000px;
   }
 }
 @media (min-width: 1600px) {
   .header-inner {
-    width: 1200px;
+    width: 1100px;
   }
 }
 .site-brand-container {
@@ -978,7 +978,7 @@ pre .javascript .function {
 }
 .site-title {
   display: inline-block;
-  font-family: 'GothicE', '华文新魏', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Symbol', '华文中宋', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 1em;
   font-weight: normal;
   line-height: 1.5;
@@ -986,7 +986,7 @@ pre .javascript .function {
 }
 .site-subtitle {
   color: #999;
-  font-size: 0.8125em;
+  font-size: 0.7em;
   margin: 10px 0;
 }
 .use-motion .brand {
@@ -1057,7 +1057,7 @@ pre .javascript .function {
 .menu-item span.exturl {
   border-bottom: 0;
   display: block;
-  font-size: 0.8125em;
+  font-size: 0.7em;
   transition-property: border-color;
   transition-delay: 0s;
   transition-duration: 0.2s;
@@ -1159,14 +1159,14 @@ pre .javascript .function {
 .links-of-author span.exturl {
   border-bottom-color: #555;
   display: inline-block;
-  font-size: 0.8125em;
+  font-size: 0.7em;
   margin-bottom: 10px;
   margin-right: 10px;
   vertical-align: middle;
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #f1963c;
+  background: #c73085;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1197,11 +1197,11 @@ pre .javascript .function {
   color: #fff;
 }
 .links-of-blogroll {
-  font-size: 0.8125em;
+  font-size: 0.7em;
   margin-top: 10px;
 }
 .links-of-blogroll-title {
-  font-size: 0.875em;
+  font-size: 0.8em;
   font-weight: 600;
   margin-top: 0;
 }
@@ -1241,7 +1241,7 @@ pre .javascript .function {
   color: #555;
   cursor: pointer;
   display: inline-block;
-  font-size: 0.875em;
+  font-size: 0.8em;
 }
 .sidebar-nav li.sidebar-nav-overview {
   margin-left: 10px;
@@ -1286,7 +1286,7 @@ pre .javascript .function {
   background: #87daff;
 }
 .post-toc {
-  font-size: 0.875em;
+  font-size: 0.8em;
 }
 .post-toc ol {
   list-style: none;
@@ -1357,11 +1357,11 @@ pre .javascript .function {
 }
 .site-state-item-name {
   color: inherit;
-  font-size: 0.875em;
+  font-size: 0.8em;
 }
 .footer {
   color: #999;
-  font-size: 0.875em;
+  font-size: 0.8em;
   padding: 20px 0;
 }
 .footer.footer-fixed {
@@ -1374,16 +1374,16 @@ pre .javascript .function {
   box-sizing: border-box;
   margin: 0 auto;
   text-align: center;
-  width: 1000px;
+  width: 900px;
 }
 @media (min-width: 1200px) {
   .footer-inner {
-    width: 1100px;
+    width: 1000px;
   }
 }
 @media (min-width: 1600px) {
   .footer-inner {
-    width: 1200px;
+    width: 1100px;
   }
 }
 .with-love {
@@ -1496,7 +1496,7 @@ pre .javascript .function {
   z-index: 1500;
 }
 .post-body {
-  font-family: '华文新魏', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: '华文中宋', "PingFang SC", "Microsoft YaHei", sans-serif;
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
@@ -1506,13 +1506,13 @@ pre .javascript .function {
   }
 }
 .post-body span.exturl .fa {
-  font-size: 0.875em;
+  font-size: 0.8em;
   margin-left: 4px;
 }
 .post-body .image-caption,
 .post-body .figure .caption {
   color: #999;
-  font-size: 0.875em;
+  font-size: 0.8em;
   font-weight: bold;
   line-height: 1;
   margin: -20px auto 15px;
@@ -1649,7 +1649,7 @@ pre .javascript .function {
   width: 4px;
 }
 .posts-collapse .fa-external-link {
-  font-size: 0.875em;
+  font-size: 0.8em;
   margin-left: 5px;
 }
 .post-eof {
@@ -1793,18 +1793,18 @@ pre .javascript .function {
   visibility: visible;
 }
 .posts-expand .post-title-link .fa {
-  font-size: 0.875em;
+  font-size: 0.8em;
   margin-left: 5px;
 }
 .posts-expand .post-meta {
   color: #999;
-  font-family: '华文新魏', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: '华文中宋', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 0.6em;
   margin: 3px 0 60px 0;
   text-align: center;
 }
 .posts-expand .post-meta .post-description {
-  font-size: 0.875em;
+  font-size: 0.8em;
   margin-top: 2px;
 }
 .posts-expand .post-meta time {
@@ -1844,7 +1844,7 @@ pre .javascript .function {
 .post-nav-item a {
   border-bottom: none;
   display: block;
-  font-size: 0.875em;
+  font-size: 0.8em;
   line-height: 1.6;
   position: relative;
 }
@@ -1896,7 +1896,7 @@ pre .javascript .function {
 }
 .post-tags a {
   display: inline-block;
-  font-size: 0.8125em;
+  font-size: 0.7em;
 }
 .post-tags a:not(:last-child) {
   margin-right: 10px;
@@ -1915,7 +1915,7 @@ pre .javascript .function {
 }
 .social-like {
   display: flex;
-  font-size: 0.875em;
+  font-size: 0.8em;
   justify-content: center;
   text-align: center;
 }
