@@ -5,6 +5,7 @@
     <url>/2020/03/24/Markdown-Basic-Grammar/</url>
     <content><![CDATA[<h1 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h1><p>“# 一级标题”<br>“## 二级标题”<br>“### 三级标题”<br>“#### 四级标题”<br>“##### 五级标题”<br>“###### 六级最小标题”</p>
 <h1 id="加粗"><a href="#加粗" class="headerlink" title="加粗"></a>加粗</h1><pre><code>**看我胖了吗？** </code></pre><p><strong>看我胖了吗？</strong></p>
+<a id="more"></a>
 <h1 id="斜体"><a href="#斜体" class="headerlink" title="斜体"></a>斜体</h1><pre><code>*身正不怕影子斜~哈哈哈*</code></pre><p><em>身正不怕影子斜~哈哈哈</em></p>
 <h1 id="加粗并斜体"><a href="#加粗并斜体" class="headerlink" title="加粗并斜体"></a>加粗并斜体</h1><pre><code>***888***</code></pre><p><strong><em>888</em></strong></p>
 <h1 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h1><pre><code>~~我被抹掉了~~</code></pre><p><del>啊！我die了</del></p>
@@ -71,7 +72,8 @@ r3|32  |33</code></pre><table>
 :----   |:--:  |-----: 
 大学    |论语   |中庸   
 赤壁怀古 |静夜思 |春眠   
-网页上需要用html代码就可以对齐格式了。</code></pre><table>
+网页上需要用html代码就可以对齐格式了。
+`表格内要想换行只需要在换行的位子加入&lt;br&gt;`</code></pre><table>
 <thead>
 <tr>
 <th>知识</th>
@@ -138,7 +140,49 @@ r3|32  |33</code></pre><table>
   <entry>
     <title>Unit One</title>
     <url>/2020/03/24/Unit-One/</url>
-    <content><![CDATA[<h2 id="Thirty-Words"><a href="#Thirty-Words" class="headerlink" title="Thirty Words"></a>Thirty Words</h2>]]></content>
+    <content><![CDATA[<h2 id="Thirty-Words"><a href="#Thirty-Words" class="headerlink" title="Thirty Words"></a><center>Thirty Words</center></h2><h3 id="Part-One"><a href="#Part-One" class="headerlink" title="Part One"></a>Part One</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line">authority			[əˈθɔːrəti]</span><br><span class="line">demonstrate 		[ˈdemənstreɪt]</span><br><span class="line">challenge			[ˈtʃælɪndʒ]</span><br><span class="line">neglect			[nɪˈɡlekt]</span><br><span class="line">alter				[ˈɔːltər]</span><br><span class="line">abuse			[əˈbjuːs]</span><br><span class="line">disguise			[dɪsˈɡaɪz]</span><br><span class="line">deny			[dɪˈnaɪ]</span><br><span class="line">manual			[ˈmænjuəl]</span><br><span class="line">constant			[ˈkɑːnstənt]</span><br></pre></td></tr></table></figure>
+<a id="more"></a>
+<blockquote>
+<p>PoS is Parts of Speech</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th><center>Words</center></th>
+<th><center>PoS</center></th>
+<th>Phrase matching</th>
+<th>Derivative words</th>
+<th><center>Example</center></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>authority</td>
+<td>n. 权力、权威、专家</td>
+<td>1. in authority <br>  持有权力<br> 2. one leading authority <br>  有权威的人</td>
+<td>1. authoritative <br>  a.有权威的; <br>2. authorization <br>  n.授权、批准</td>
+<td>The judge(法官) had no authority to order a second trial(审判).</td>
+</tr>
+<tr>
+<td>demonstrate</td>
+<td>v.论证、说明</td>
+<td>1. demonstrate one’s ablility<br>  显示某人的能力</td>
+<td>1. demonstrative <br>  a.感情外露的、指示的</td>
+<td>Please demonstrate how the machine works.</td>
+</tr>
+<tr>
+<td>challenge</td>
+<td>n.挑战;<br>v.向..挑战</td>
+<td>1. face a challenge<br>  面对挑战<br>2. take up challenge<br>  接受挑战</td>
+<td>1. challenging<br>  挑战性的,要求高的,艰巨的</td>
+<td>This career offers a challenge.</td>
+</tr>
+</tbody></table>
+<h3 id="Part-Two"><a href="#Part-Two" class="headerlink" title="Part Two"></a>Part Two</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line">contradict		[ˌkɑːntrəˈdɪkt]</span><br><span class="line">expand			[ɪkˈspænd]</span><br><span class="line">straightforward	[ˌstreɪtˈfɔːrwərd]</span><br><span class="line">principle			[ˈprɪnsəpl]</span><br><span class="line">enthusiasm		[ɪnˈθuːziæzəm]</span><br><span class="line">decline			[dɪˈklaɪn]</span><br><span class="line">aggressive		[əˈɡresɪv]</span><br><span class="line">propose			[prəˈpoʊz]</span><br><span class="line">brand			[brænd]</span><br><span class="line">harsh			[hɑːrʃ]</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="Part-Three"><a href="#Part-Three" class="headerlink" title="Part Three"></a>Part Three</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">commit			[kəˈmɪt]</span><br><span class="line">obscure			[əbˈskjʊr]</span><br><span class="line">clarity			[ˈklærəti]</span><br><span class="line">profound			[prəˈfaʊnd]</span><br><span class="line">absorb			[əbˈzɔːrb,əbˈsɔːrb]</span><br><span class="line">privilege			[ˈprɪvəlɪdʒ]</span><br><span class="line">justify			[ˈdʒʌstɪfaɪ]</span><br><span class="line">substitute		[ˈsʌbstɪtuːt]</span><br><span class="line">evil				[ˈiːvl,ˈiːvɪl]</span><br><span class="line">stereotype		[ˈsteriətaɪp]</span><br></pre></td></tr></table></figure>
+
+<div align="right"><img src="http://ww1.sinaimg.cn/large/c460dc30gy1gd51005lvkj20dw0dwjri.jpg" width="100" height="100" ></div>]]></content>
       <categories>
         <category>English</category>
       </categories>
@@ -149,8 +193,12 @@ r3|32  |33</code></pre><table>
   <entry>
     <title>世说新语--概述</title>
     <url>/2020/03/23/%E4%B8%96%E8%AF%B4%E6%96%B0%E8%AF%AD/</url>
-    <content><![CDATA[<h2 id="为什么要学习世说新语？"><a href="#为什么要学习世说新语？" class="headerlink" title="为什么要学习世说新语？"></a>为什么要学习世说新语？</h2><p>-今天又搞了一天这个主题的美化，哎太浪费时间了，明天就开始学习了，记录学习过程和知识。<br>-表面没有必要 弄得那么光鲜，只要内容有底蕴就很不错了</p>
-<a id="more"></a>]]></content>
+    <content><![CDATA[<h2 id="为什么要学习世说新语？"><a href="#为什么要学习世说新语？" class="headerlink" title="为什么要学习世说新语？"></a>为什么要学习世说新语？</h2><blockquote>
+<p>《世说新语》这部书记载了自汉魏至东晋的逸闻轶事，是研究魏晋风流的极好史料，其中关于魏晋名士的种种活动如清谈、品题，种种性格特征如栖逸、任诞、简傲，种种人生追求，以及种种嗜好，都有生动的描写，纵观全书，可以得到魏晋时期几代士人的群像，通过这些人物形象，可以进而了解那个时代上层社会的风尚。从中可以看到道家思想对魏晋士人的思维方式和生活状况，乃至整个社会风气都产生了重要影响。</p>
+</blockquote>
+<a id="more"></a>
+<p>《世说新语》所记虽是片言数语，但内容非常丰富，广泛地反映了这一时期士族阶层的生活方式、精神面貌及其清谈放诞的风气，是记叙轶闻隽语的笔记小说的先驱，也是后来小品文的典范，对后世笔记小说的发展有着深远的影响，而仿照此书体例而写成的作品更不计其数，在古小说中自成一体。书中不少故事，或成为后世戏曲小说的素材，或成为后世诗文常用的典故，在中国文学史上具有重要地位，鲁迅先生称它为”一部名士底(的)教科书”。</p>
+]]></content>
       <categories>
         <category>世说新语</category>
       </categories>
