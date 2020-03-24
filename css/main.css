@@ -4,9 +4,9 @@
   --card-bg-color: #f5f5f5;
   --text-color: #555;
   --link-color: #555;
-  --link-hover-color: #222;
+  --link-hover-color: #0684bd;
   --brand-color: #222;
-  --brand-hover-color: $black;
+  --brand-hover-color: #ff2a2a;
   --table-row-odd-bg-color: #f9f9f9;
   --table-row-hover-bg-color: #f5f5f5;
   --menu-item-bg-color: #ddd;
@@ -349,28 +349,31 @@ td {
   margin-top: 3px;
 }
 .toggle.toggle-arrow .toggle-line-first {
+  left: 50%;
   top: 2px;
-  transform: rotate(-45deg);
-  width: 50%;
-}
-.toggle.toggle-arrow .toggle-line-middle {
-  width: 90%;
-}
-.toggle.toggle-arrow .toggle-line-last {
-  top: -2px;
   transform: rotate(45deg);
   width: 50%;
 }
-.toggle.toggle-close .toggle-line-first {
-  top: 5px;
+.toggle.toggle-arrow .toggle-line-middle {
+  left: 2px;
+  width: 90%;
+}
+.toggle.toggle-arrow .toggle-line-last {
+  left: 50%;
+  top: -2px;
   transform: rotate(-45deg);
+  width: 50%;
+}
+.toggle.toggle-close .toggle-line-first {
+  transform: rotate(-45deg);
+  top: 5px;
 }
 .toggle.toggle-close .toggle-line-middle {
   opacity: 0;
 }
 .toggle.toggle-close .toggle-line-last {
-  top: -5px;
   transform: rotate(45deg);
+  top: -5px;
 }
 .highlight,
 pre {
@@ -386,7 +389,7 @@ code {
 code {
   background: #eee;
   border-radius: 3px;
-  color: #555;
+  color: #ff2a2a;
   padding: 2px 4px;
   overflow-wrap: break-word;
   word-wrap: break-word;
@@ -978,7 +981,7 @@ pre .javascript .function {
 }
 .site-title {
   display: inline-block;
-  font-family: 'Symbol', '华文中宋', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'symap', '华文中宋', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 1em;
   font-weight: normal;
   line-height: 1.5;
@@ -1166,7 +1169,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #c73085;
+  background: #7505ff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1496,7 +1499,7 @@ pre .javascript .function {
   z-index: 1500;
 }
 .post-body {
-  font-family: '华文中宋', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: '华文中宋', '华文中宋', "PingFang SC", "Microsoft YaHei", sans-serif;
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
@@ -1798,7 +1801,7 @@ pre .javascript .function {
 }
 .posts-expand .post-meta {
   color: #999;
-  font-family: '华文中宋', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: '华文中宋', '华文中宋', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 0.6em;
   margin: 3px 0 60px 0;
   text-align: center;
@@ -2434,24 +2437,10 @@ hr {
   border-bottom-color: var(--link-hover-color);
 }
 .sidebar {
-  right: -320px;
+  left: -320px;
 }
 .sidebar.sidebar-active {
-  right: 0;
-}
-.sidebar-toggle,
-.back-to-top {
-  left: auto;
-  right: 30px;
-}
-@media (max-width: 991px) {
-  .sidebar-toggle,
-  .back-to-top {
-    right: 20px;
-  }
-}
-.book-mark-link {
-  left: 30px;
+  left: 0;
 }
 .sidebar {
   width: 320px;

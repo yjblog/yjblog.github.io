@@ -1,6 +1,152 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Markdown Basic Grammar</title>
+    <url>/2020/03/24/Markdown-Basic-Grammar/</url>
+    <content><![CDATA[<h1 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h1><p>“# 一级标题”<br>“## 二级标题”<br>“### 三级标题”<br>“#### 四级标题”<br>“##### 五级标题”<br>“###### 六级最小标题”</p>
+<h1 id="加粗"><a href="#加粗" class="headerlink" title="加粗"></a>加粗</h1><pre><code>**看我胖了吗？** </code></pre><p><strong>看我胖了吗？</strong></p>
+<h1 id="斜体"><a href="#斜体" class="headerlink" title="斜体"></a>斜体</h1><pre><code>*身正不怕影子斜~哈哈哈*</code></pre><p><em>身正不怕影子斜~哈哈哈</em></p>
+<h1 id="加粗并斜体"><a href="#加粗并斜体" class="headerlink" title="加粗并斜体"></a>加粗并斜体</h1><pre><code>***888***</code></pre><p><strong><em>888</em></strong></p>
+<h1 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h1><pre><code>~~我被抹掉了~~</code></pre><p><del>啊！我die了</del></p>
+<h1 id="高亮"><a href="#高亮" class="headerlink" title="高亮"></a>高亮</h1><pre><code>`人生巅峰`来强调字符</code></pre><p><code>人生巅峰时刻</code></p>
+<h1 id="引用显示"><a href="#引用显示" class="headerlink" title="引用显示"></a>引用显示</h1><pre><code>起始位置使用 &gt; 来表示引用，两个回车结束引用。</code></pre><blockquote>
+<p>我引用了吗？<br>是的，你正在使用引用<br>两个回车来结束引用<br>哈哈哈</p>
+</blockquote>
+<h1 id="嵌套使用"><a href="#嵌套使用" class="headerlink" title="嵌套使用"></a>嵌套使用</h1><pre><code>&gt; if
+&gt;&gt; elif
+&gt;&gt;&gt; elif
+&gt;&gt;&gt;&gt; elif
+
+&gt;&gt; if
+&gt;&gt;&gt; elif</code></pre><blockquote>
+<p>if</p>
+<blockquote>
+<p>elif</p>
+<blockquote>
+<p>elif</p>
+<blockquote>
+<p>elif<br>if<br>elif</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<p><strong>空行来表示降级</strong></p>
+<blockquote>
+<blockquote>
+<p>if</p>
+<blockquote>
+<p>elif<br>同样地，使用两个回车来结束。</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><pre><code>  |c1 |c2  |c3
+--|---|----|-----
+r1|12  |13
+r2|22  |23
+r3|32  |33</code></pre><table>
+<thead>
+<tr>
+<th>c1</th>
+<th>c2</th>
+<th>c3</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>r1</td>
+<td>12</td>
+<td>13</td>
+</tr>
+<tr>
+<td>r2</td>
+<td>22</td>
+<td>23</td>
+</tr>
+<tr>
+<td>r3</td>
+<td>32</td>
+<td>33</td>
+</tr>
+</tbody></table>
+<pre><code>知识  |&lt;center&gt;居中&lt;/center&gt;   |&lt;p aligen=&quot;right&quot;&gt;儒雅&lt;/p&gt; 
+:----   |:--:  |-----: 
+大学    |论语   |中庸   
+赤壁怀古 |静夜思 |春眠   
+网页上需要用html代码就可以对齐格式了。</code></pre><table>
+<thead>
+<tr>
+<th>知识</th>
+<th><center>智慧</center></th>
+<th><p align="right">儒雅</p></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>大学</td>
+<td><center>论语</center></td>
+<td><p align="right">中庸</p></td>
+</tr>
+<tr>
+<td>赤壁怀古</td>
+<td><center>静夜思</center></td>
+<td><p align="right">春眠</p></td>
+</tr>
+</tbody></table>
+<h1 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h1><p><a href="url">文本</a><br><a href="http://naotu.baidu.com" target="_blank" rel="noopener">百度脑图</a> - 控制创意，如此简单</p>
+<h1 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h1><h2 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h2><pre><code>* 第一，...
+* 第二，...
+* 第三，...
+- First,
+- Sencond,
+- Third,</code></pre><ul>
+<li>第一，…</li>
+<li>第二，…</li>
+<li>第三，…</li>
+</ul>
+<ul>
+<li>First,</li>
+<li>Sencond,</li>
+<li>Third,</li>
+</ul>
+<h2 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h2><p>首行添加数字，比如：</p>
+<ol>
+<li>在干嘛？</li>
+<li>不知道。</li>
+<li>吃了吗？</li>
+</ol>
+<h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><pre><code>`Hello World`   `符号加上后会被识别为代码。</code></pre><p><code>Hello World</code></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span> a = <span class="number">0</span>;</span><br><span class="line"><span class="keyword">int</span> b = <span class="number">1</span>;</span><br><span class="line"><span class="keyword">int</span> c = a*b;</span><br></pre></td></tr></table></figure>
+
+<p>表示多行代码用 ``` 并以此结尾。</p>
+<h1 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h1><ol>
+<li>靠右<br> <code>&lt;div align=&quot;right&quot;&gt;![这里写图片描述](http:...)</code></li>
+<li>居中<br> <code>&lt;div align=&quot;center&quot;&gt;![这里写图片描述](http:...)</code></li>
+<li>靠左<br> <code>&lt;div align=&quot;left&quot;&gt;![这里写图片描述](http:...)</code></li>
+<li>图片大小<br> <code>&lt;div align=right&gt;&lt;img src=&quot;url...&quot; width=&quot;100&quot; height=&quot;100&quot;&gt;&lt;/div&gt;</code></li>
+</ol>
+<div align="right"><img src="http://ww1.sinaimg.cn/large/c460dc30gy1gd51005lvkj20dw0dwjri.jpg" width="100" height="100" ></div>
+
+
+
+
+]]></content>
+      <categories>
+        <category>Markdown</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Unit One</title>
+    <url>/2020/03/24/Unit-One/</url>
+    <content><![CDATA[<h2 id="Thirty-Words"><a href="#Thirty-Words" class="headerlink" title="Thirty Words"></a>Thirty Words</h2>]]></content>
+      <categories>
+        <category>English</category>
+      </categories>
+      <tags>
+        <tag>English Corner</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>世说新语--概述</title>
     <url>/2020/03/23/%E4%B8%96%E8%AF%B4%E6%96%B0%E8%AF%AD/</url>
     <content><![CDATA[<h2 id="为什么要学习世说新语？"><a href="#为什么要学习世说新语？" class="headerlink" title="为什么要学习世说新语？"></a>为什么要学习世说新语？</h2><p>-今天又搞了一天这个主题的美化，哎太浪费时间了，明天就开始学习了，记录学习过程和知识。<br>-表面没有必要 弄得那么光鲜，只要内容有底蕴就很不错了</p>
