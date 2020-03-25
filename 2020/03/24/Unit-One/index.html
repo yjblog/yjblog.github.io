@@ -44,7 +44,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://ww1.sinaimg.cn/large/c460dc30gy1gd51005lvkj20dw0dwjri.jpg">
 <meta property="article:published_time" content="2020-03-24T02:04:53.000Z">
-<meta property="article:modified_time" content="2020-03-25T14:06:39.641Z">
+<meta property="article:modified_time" content="2020-03-25T16:13:52.474Z">
 <meta property="article:author" content="log22">
 <meta property="article:tag" content="English Corner">
 <meta name="twitter:card" content="summary">
@@ -244,7 +244,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2020-03-25 22:06:39" itemprop="dateModified" datetime="2020-03-25T22:06:39+08:00">2020-03-25</time>
+                <time title="Modified: 2020-03-26 00:13:52" itemprop="dateModified" datetime="2020-03-26T00:13:52+08:00">2020-03-26</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -656,7 +656,7 @@
 <td>.. stereotyped a.老一套的，模式化的</td>
 </tr>
 </tbody></table>
-<div align="right"><img src="http://ww1.sinaimg.cn/large/c460dc30gy1gd51005lvkj20dw0dwjri.jpg" width="100" height="100" ></div>
+<div align="center"><img src="http://ww1.sinaimg.cn/large/c460dc30gy1gd51005lvkj20dw0dwjri.jpg" width="100" height="100" ></div>
     </div>
     <div>
       
@@ -722,19 +722,19 @@
           
       <div class="tabs tabs-comment">
         <ul class="nav-tabs">
-            <li class="tab"><a href="#comment-valine">valine</a></li>
             <li class="tab"><a href="#comment-livere">livere</a></li>
+            <li class="tab"><a href="#comment-valine">valine</a></li>
         </ul>
         <div class="tab-content">
-            <div class="tab-pane valine" id="comment-valine">
-              <div class="comments" id="valine-comments"></div>
-            </div>
             <div class="tab-pane livere" id="comment-livere">
               
   <div class="comments">
     <div id="lv-container" data-id="city" data-uid="MTAyMC80OTE5MC8yNTY4NA"></div>
   </div>
   
+            </div>
+            <div class="tab-pane valine" id="comment-valine">
+              <div class="comments" id="valine-comments"></div>
             </div>
         </div>
       </div>
@@ -953,6 +953,22 @@
 
   
 
+<script>
+NexT.utils.loadComments(document.querySelector('#lv-container'), () => {
+  window.livereOptions = {
+    refer: location.pathname.replace(CONFIG.root, '').replace('index.html', '')
+  };
+  (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
+});
+</script>
+
 
 <script>
 NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
@@ -979,22 +995,6 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
       serverURLs : ''
     });
   }, window.Valine);
-});
-</script>
-
-<script>
-NexT.utils.loadComments(document.querySelector('#lv-container'), () => {
-  window.livereOptions = {
-    refer: location.pathname.replace(CONFIG.root, '').replace('index.html', '')
-  };
-  (function(d, s) {
-    var j, e = d.getElementsByTagName(s)[0];
-    if (typeof LivereTower === 'function') { return; }
-    j = d.createElement(s);
-    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-    j.async = true;
-    e.parentNode.insertBefore(j, e);
-  })(document, 'script');
 });
 </script>
 
