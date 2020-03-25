@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>琐事</title>
+    <url>/2020/03/26/%E9%9A%8F%E8%AE%B0/</url>
+    <content><![CDATA[<p>这个博客主题美化折腾来折腾去的，就到此为止了。</p>
+<p>后面应该不会怎么变动了。</p>
+<p>接下来就是每天往里卖面塞东西，Full it.</p>
+<p>每天要做的事情还是得列出来，规划好时间，这样效率才会高。</p>
+<p>不知觉中，开学已一个月有余，然而，每天什么都没有完成，没有什么收获。</p>
+<p>今天就到这里吧，明天见。</p>
+<p>Catch you later.</p>
+]]></content>
+      <categories>
+        <category>记事</category>
+      </categories>
+      <tags>
+        <tag>随记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Markdown Basic Grammar</title>
     <url>/2020/03/24/Markdown-Basic-Grammar/</url>
     <content><![CDATA[<h1 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h1><p>“# 一级标题”<br>“## 二级标题”<br>“### 三级标题”<br>“#### 四级标题”<br>“##### 五级标题”<br>“###### 六级最小标题”</p>
