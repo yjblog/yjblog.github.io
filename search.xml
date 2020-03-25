@@ -140,48 +140,360 @@ r3|32  |33</code></pre><table>
   <entry>
     <title>Unit One</title>
     <url>/2020/03/24/Unit-One/</url>
-    <content><![CDATA[<h2 id="Thirty-Words"><a href="#Thirty-Words" class="headerlink" title="Thirty Words"></a><center>Thirty Words</center></h2><h3 id="Part-One"><a href="#Part-One" class="headerlink" title="Part One"></a>Part One</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line">authority			[əˈθɔːrəti]</span><br><span class="line">demonstrate 		[ˈdemənstreɪt]</span><br><span class="line">challenge			[ˈtʃælɪndʒ]</span><br><span class="line">neglect			[nɪˈɡlekt]</span><br><span class="line">alter				[ˈɔːltər]</span><br><span class="line">abuse			[əˈbjuːs]</span><br><span class="line">disguise			[dɪsˈɡaɪz]</span><br><span class="line">deny				[dɪˈnaɪ]</span><br><span class="line">manual			[ˈmænjuəl]</span><br><span class="line">constant			[ˈkɑːnstənt]</span><br></pre></td></tr></table></figure>
+    <content><![CDATA[<h2 id="Thirty-Words"><a href="#Thirty-Words" class="headerlink" title="Thirty Words"></a><center>Thirty Words</center></h2><h3 id="Part-One"><a href="#Part-One" class="headerlink" title="Part One"></a>Part One</h3><ol>
+<li><p><strong>authority</strong>            [əˈθɔːrəti]    </p>
+<ul>
+<li>The judge(法官) had no authority to order a second trial(审判).</li>
+</ul>
+</li>
+<li><p><strong>demonstrate</strong>         [ˈdemənstreɪt]</p>
+<ul>
+<li>Please demonstrate how the machine works.</li>
+</ul>
+</li>
+<li><p><strong>challenge</strong>            [ˈtʃælɪndʒ]</p>
+<ul>
+<li>This career offers a challenge.</li>
+</ul>
+</li>
+<li><p><strong>neglect</strong>            [nɪˈɡlekt]</p>
+<ul>
+<li>No country can afford to neglect education.</li>
+</ul>
+</li>
+<li><p><strong>alter</strong>                [ˈɔːltər]</p>
+<ul>
+<li><p>Circumstances alter cases.</p>
+</li>
+<li><p>Difficult circumstances(environment) can temper(hone磨练) one’s will(意志).</p>
+</li>
+</ul>
+</li>
+<li><p><strong>abuse</strong>            [əˈbjuːs]</p>
+<ul>
+<li>I didn’t expect him to descend(decline) to personal abuse.(人身攻击)</li>
+</ul>
+</li>
+<li><p><strong>disguise</strong>            [dɪsˈɡaɪz]</p>
+<ul>
+<li>She could not disguise her amusement at his mistake.</li>
+</ul>
+</li>
+<li><p><strong>deny</strong>            [dɪˈnaɪ]</p>
+<ul>
+<li>No one can deny the fact that fire burns.</li>
+</ul>
+</li>
+<li><p><strong>manual</strong>            [ˈmænjuəl]</p>
+<ul>
+<li>Work done by machines has replaced.</li>
+</ul>
+</li>
+<li><p><strong>constant</strong>            [ˈkɑːnstənt] </p>
+<ul>
+<li>This has been a timely reminder of the need for constant care.</li>
+</ul>
+</li>
+</ol>
 <a id="more"></a>
+
 <blockquote>
 <p>PoS is Parts of Speech</p>
 </blockquote>
 <table>
 <thead>
 <tr>
-<th><center>Words</center></th>
-<th><center>PoS</center></th>
-<th>Phrase matching</th>
-<th>Derivative words</th>
-<th><center>Example</center></th>
+<th align="center">Words</th>
+<th align="center">PoS</th>
+<th align="center">Phrase matching</th>
+<th align="center">Derivative words</th>
 </tr>
 </thead>
 <tbody><tr>
-<td>authority</td>
-<td>n. 权力、权威、专家</td>
-<td>1. in authority <br>  持有权力<br> 2. one leading authority <br>  有权威的人</td>
-<td>1. authoritative <br>  a.有权威的; <br>2. authorization <br>  n.授权、批准</td>
-<td>The judge(法官) had no authority to order a second trial(审判).</td>
+<td align="center">authority</td>
+<td align="center">n. 权力、权威、专家</td>
+<td align="center">.. in authority 持有权力<br>.. one leading authority 有权威的人</td>
+<td align="center">.. authoritative a.有权威的; <br>.. authorization n.授权、批准</td>
 </tr>
 <tr>
-<td>demonstrate</td>
-<td>v.论证、说明</td>
-<td>1. demonstrate one’s ablility<br>  显示某人的能力</td>
-<td>1. demonstrative <br>  a.感情外露的、指示的</td>
-<td>Please demonstrate how the machine works.</td>
+<td align="center">demonstrate</td>
+<td align="center">v.论证、说明</td>
+<td align="center">.. demonstrate one’s ablility 显示某人的能力</td>
+<td align="center">.. demonstrative a.感情外露的、指示的</td>
 </tr>
 <tr>
-<td>challenge</td>
-<td>n.挑战;<br>v.向..挑战</td>
-<td>1. face a challenge<br>  面对挑战<br>2. take up challenge<br>  接受挑战</td>
-<td>1. challenging<br>  挑战性的,要求高的,艰巨的</td>
-<td>This career offers a challenge.</td>
+<td align="center">challenge</td>
+<td align="center">n.挑战; v.向..挑战</td>
+<td align="center">.. face a challenge 面对挑战<br>.. take up challenge 接受挑战</td>
+<td align="center">.. challenging 挑战性的,要求高的,艰巨的</td>
+</tr>
+<tr>
+<td align="center">neglect</td>
+<td align="center">n./v.忽视,忽略</td>
+<td align="center">.. neglect of 疏忽<br>.. neglect  of duty 失职</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">alter</td>
+<td align="center">v.改变,变更</td>
+<td align="center"></td>
+<td align="center">.. alternation n.变化,修改<br>.. alternate v.交替,轮流<br>..  alternative a.供选择的</td>
+</tr>
+<tr>
+<td align="center">abuse</td>
+<td align="center">v.滥用,谩骂<br>n.虐待</td>
+<td align="center">.. drug abuse 吸毒<br>.. abuse one’s office/authority 滥用职权/权威</td>
+<td align="center">.. abusive a.凌辱的,辱骂的</td>
+</tr>
+<tr>
+<td align="center">disguise</td>
+<td align="center">n.假装<br>v.伪装</td>
+<td align="center">.. in disguise 伪装,隐瞒</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">deny</td>
+<td align="center">v.否认,拒绝</td>
+<td align="center">.. deny doing sth. 否认做过某事</td>
+<td align="center">.. deniable a.可否认的</td>
+</tr>
+<tr>
+<td align="center">manual</td>
+<td align="center">a.手工做的<br>n.手册,指南</td>
+<td align="center">.. manual workers 手工劳动者<br>.. manual labour 体力劳动</td>
+<td align="center">.. manually ad.用手地,手工地</td>
+</tr>
+<tr>
+<td align="center">constant</td>
+<td align="center">a.持续的,永恒的<br>n.常数</td>
+<td align="center">.. constant temperature 恒温<br>.. constant speed 恒速</td>
+<td align="center">.. constancy n.恒定不变</td>
 </tr>
 </tbody></table>
-<h3 id="Part-Two"><a href="#Part-Two" class="headerlink" title="Part Two"></a>Part Two</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line">contradict		[ˌkɑːntrəˈdɪkt]</span><br><span class="line">expand			[ɪkˈspænd]</span><br><span class="line">straightforward	[ˌstreɪtˈfɔːrwərd]</span><br><span class="line">principle			[ˈprɪnsəpl]</span><br><span class="line">enthusiasm		[ɪnˈθuːziæzəm]</span><br><span class="line">decline			[dɪˈklaɪn]</span><br><span class="line">aggressive		[əˈɡresɪv]</span><br><span class="line">propose			[prəˈpoʊz]</span><br><span class="line">brand			[brænd]</span><br><span class="line">harsh			[hɑːrʃ]</span><br></pre></td></tr></table></figure>
-
-
-<h3 id="Part-Three"><a href="#Part-Three" class="headerlink" title="Part Three"></a>Part Three</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">commit			[kəˈmɪt]</span><br><span class="line">obscure			[əbˈskjʊr]</span><br><span class="line">clarity			[ˈklærəti]</span><br><span class="line">profound			[prəˈfaʊnd]</span><br><span class="line">absorb			[əbˈzɔːrb,əbˈsɔːrb]</span><br><span class="line">privilege			[ˈprɪvəlɪdʒ]</span><br><span class="line">justify			[ˈdʒʌstɪfaɪ]</span><br><span class="line">substitute		[ˈsʌbstɪtuːt]</span><br><span class="line">evil				[ˈiːvl,ˈiːvɪl]</span><br><span class="line">stereotype		[ˈsteriətaɪp]</span><br></pre></td></tr></table></figure>
-
+<h3 id="Part-Two"><a href="#Part-Two" class="headerlink" title="Part Two"></a>Part Two</h3><ol>
+<li><strong>contradict</strong>        [ˌkɑːntrəˈdɪkt]<ul>
+<li>Don’t contradict your father.</li>
+</ul>
+</li>
+<li><strong>expand</strong>            [ɪkˈspænd]<ul>
+<li>Metals expand when they are heated.</li>
+</ul>
+</li>
+<li><strong>straightforward</strong>    [ˌstreɪtˈfɔːrwərd]<ul>
+<li>I must insist on you give me a straightforward answer.</li>
+</ul>
+</li>
+<li><strong>principle</strong>            [ˈprɪnsəpl]<ul>
+<li>The system works on the principle that heat rises.</li>
+</ul>
+</li>
+<li><strong>enthusiasm</strong>        [ɪnˈθuːziæzəm]<ul>
+<li>His enthusiasm breathed new life into the company.</li>
+</ul>
+</li>
+<li><strong>decline</strong>            [dɪˈklaɪn]<ul>
+<li>She is on the decline and may die soon.</li>
+</ul>
+</li>
+<li><strong>aggressive</strong>        [əˈɡresɪv]<ul>
+<li>He has an aggressive manner.</li>
+</ul>
+</li>
+<li><strong>propose</strong>            [prəˈpoʊz]<ul>
+<li>Did he propose to you?</li>
+</ul>
+</li>
+<li><strong>brand</strong>            [brænd]<ul>
+<li>These frightful experences are branded on his memory.</li>
+</ul>
+</li>
+<li><strong>harsh</strong>            [hɑːrʃ]<ul>
+<li>His harsh word caused her much pain.</li>
+</ul>
+</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Words</th>
+<th>PoS</th>
+<th>Phrase matching</th>
+<th>Derivative words</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>contradict</td>
+<td>v.反驳；同..矛盾</td>
+<td></td>
+<td>.. contradiction n.反驳，否认；抵触<br>.. contradictory a.抵触的，矛盾的</td>
+</tr>
+<tr>
+<td>expand</td>
+<td>v.使膨胀/扩张</td>
+<td>.. expand one’s knowledge 拓宽知识<br>.. expand our horizon 拓展视野</td>
+<td>.. expanding a.扩大的<br>.. expanse n.宽广空间</td>
+</tr>
+<tr>
+<td>straightforward</td>
+<td>a.正直的，坦率的<br>ad.坦率地</td>
+<td>.. straightforward procedure 简单的方法<br>.. straightforward manipulation 直接操作</td>
+<td>.. straightforwardness n.坦率，直接</td>
+</tr>
+<tr>
+<td>principle</td>
+<td>n. 原理，原则;主义，信念</td>
+<td>.. in principle 原则上，理论上；基本上</td>
+<td></td>
+</tr>
+<tr>
+<td>enthusiasm</td>
+<td>n.热情，热心</td>
+<td></td>
+<td>.. enthusiast n.热心者；热烈赞成者<br>.. enthusiastic a.热情的，热心的</td>
+</tr>
+<tr>
+<td>decline</td>
+<td>v.下降，衰落，拒绝<br>n.倾斜，斜面</td>
+<td>.. on the decline 在衰退中<br>.. in decline 下降<br>.. rapid decline 飞速下降<br>.. phase of decline 衰退期</td>
+<td>.. declined a.下降的；被拒绝的</td>
+</tr>
+<tr>
+<td>aggressive</td>
+<td>a.侵略的；敢做敢为的，积极的</td>
+<td>.. aggressive behavior 挑衅行为</td>
+<td>.. aggressively ad.放肆地</td>
+</tr>
+<tr>
+<td>propose</td>
+<td>v.提议，推荐；求婚</td>
+<td>.. propose to do/doing 打算做某事<br>.. propose sb. for 推荐某人为…</td>
+<td>.. proposal n.提议，建议，求婚<br>.. proposition n.提议建议</td>
+</tr>
+<tr>
+<td>brand</td>
+<td>n.商标，牌子<br>v.使铭记，打烙印</td>
+<td>.. name brand 名牌<br>.. leading brand 驰名品牌<br>.. brand image 品牌形象<br>.. co-branded card 联名牌</td>
+<td>.. branded a.名牌的</td>
+</tr>
+<tr>
+<td>harsh</td>
+<td>a.严厉的，刻薄的</td>
+<td>.. harsh measures 严厉的措辞<br>.. a harsh climate 恶劣的气候</td>
+<td>.. harshness n.严肃，艰苦</td>
+</tr>
+</tbody></table>
+<h3 id="Part-Three"><a href="#Part-Three" class="headerlink" title="Part Three"></a>Part Three</h3><ol>
+<li><strong>commit</strong>            [kəˈmɪt]<ul>
+<li>One cannot commit crimes with impunity(/ɪmˈpjuːnəti/不受惩罚).</li>
+</ul>
+</li>
+<li><strong>obscure</strong>        [əbˈskjʊr]<ul>
+<li>Her poetry is full of obscure literary allusions.</li>
+</ul>
+</li>
+<li><strong>clarity</strong>            [ˈklærəti]<ul>
+<li>The clarity of the mountain air.</li>
+</ul>
+</li>
+<li><strong>profound</strong>            [prəˈfaʊnd]<ul>
+<li>The teacher had both extensive knowledge and profound scholarship.</li>
+</ul>
+</li>
+<li><strong>absorb</strong>            [əbˈzɔːrb,əbˈsɔːrb]<ul>
+<li>Plants can absorb carbon dioxide and release oxygen.</li>
+</ul>
+</li>
+<li><strong>privilege</strong>            [ˈprɪvəlɪdʒ]<ul>
+<li>It was a privilege to work with him.</li>
+</ul>
+</li>
+<li><strong>justify</strong>            [ˈdʒʌstɪfaɪ]<ul>
+<li>The end justifies the means.</li>
+</ul>
+</li>
+<li><strong>substitute</strong>        [ˈsʌbstɪtuːt]<ul>
+<li>The coach substituted Smith for Jones.</li>
+</ul>
+</li>
+<li><strong>evil</strong>            [ˈiːvl,ˈiːvɪl]<ul>
+<li>His ecil designs were frustrated.</li>
+</ul>
+</li>
+<li><strong>stereotype</strong>        [ˈsteriətaɪp]<ul>
+<li>He doesn’t conform to the usual stereotype of the city businessman with adark suit and rolled umbrella.</li>
+</ul>
+</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Words</th>
+<th>PoS</th>
+<th>Phrase matching</th>
+<th>Derivative words</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>commit</td>
+<td>v.提交;犯错/罪</td>
+<td>.. commit crimes 犯罪<br>.. commit suicide 自杀</td>
+<td>.. committed a.尽心尽力的</td>
+</tr>
+<tr>
+<td>obscure</td>
+<td>v.使不明显<br>a.暗的,模糊的</td>
+<td></td>
+<td>.. obscurely ad.晦涩地，不为人知地</td>
+</tr>
+<tr>
+<td>clarity</td>
+<td>n.清晰，明晰</td>
+<td></td>
+<td>.. clarify v.阐明，净化<br>.. clarification n.澄清，说明</td>
+</tr>
+<tr>
+<td>profound</td>
+<td>a.深刻的，渊博的</td>
+<td>.. a profound sleep 酣睡<br>.. a profound idea 思想深刻</td>
+<td>.. profoundly ad.深渊地，严重地</td>
+</tr>
+<tr>
+<td>absorb</td>
+<td>v.吸收</td>
+<td></td>
+<td>.. absorption n.吸收</td>
+</tr>
+<tr>
+<td>privilege</td>
+<td>n.特权，优惠<br>v.给予特权/优惠</td>
+<td>.. executive privilege 行政特权</td>
+<td>.. privilege a.有特权的</td>
+</tr>
+<tr>
+<td>justify</td>
+<td>v.证明..是正当的认为什么有理</td>
+<td></td>
+<td>.. justification n.正当理由</td>
+</tr>
+<tr>
+<td>substitute</td>
+<td>n.代替品<br>v.代替</td>
+<td>.. substitute for 代替</td>
+<td>.. substitution n.代替；交换</td>
+</tr>
+<tr>
+<td>evil</td>
+<td>a.邪恶的<br>n.邪恶，罪恶</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stereotype</td>
+<td>n.陈规，老套，铅版<br>v.对…形成固定看法</td>
+<td></td>
+<td>.. stereotyped a.老一套的，模式化的</td>
+</tr>
+</tbody></table>
 <div align="right"><img src="http://ww1.sinaimg.cn/large/c460dc30gy1gd51005lvkj20dw0dwjri.jpg" width="100" height="100" ></div>]]></content>
       <categories>
         <category>English</category>
@@ -194,10 +506,12 @@ r3|32  |33</code></pre><table>
     <title>世说新语--概述</title>
     <url>/2020/03/23/%E4%B8%96%E8%AF%B4%E6%96%B0%E8%AF%AD/</url>
     <content><![CDATA[<h2 id="为什么要学习世说新语？"><a href="#为什么要学习世说新语？" class="headerlink" title="为什么要学习世说新语？"></a>为什么要学习世说新语？</h2><blockquote>
-<p>《世说新语》这部书记载了自汉魏至东晋的逸闻轶事，是研究魏晋风流的极好史料，其中关于魏晋名士的种种活动如清谈、品题，种种性格特征如栖逸、任诞、简傲，种种人生追求，以及种种嗜好，都有生动的描写，纵观全书，可以得到魏晋时期几代士人的群像，通过这些人物形象，可以进而了解那个时代上层社会的风尚。从中可以看到道家思想对魏晋士人的思维方式和生活状况，乃至整个社会风气都产生了重要影响。</p>
+<p>​    《世说新语》这部书记载了自汉魏至东晋的逸闻轶事，是研究魏晋风流的极好史料，其中关于魏晋名士的种种活动如清谈、品题，种种性格特征如栖逸、任诞、简傲，种种人生追求，以及种种嗜好，都有生动的描写，纵观全书，可以得到魏晋时期几代士人的群像，通过这些人物形象，可以进而了解那个时代上层社会的风尚。从中可以看到道家思想对魏晋士人的思维方式和生活状况，乃至整个社会风气都产生了重要影响。</p>
 </blockquote>
 <a id="more"></a>
-<p>《世说新语》所记虽是片言数语，但内容非常丰富，广泛地反映了这一时期士族阶层的生活方式、精神面貌及其清谈放诞的风气，是记叙轶闻隽语的笔记小说的先驱，也是后来小品文的典范，对后世笔记小说的发展有着深远的影响，而仿照此书体例而写成的作品更不计其数，在古小说中自成一体。书中不少故事，或成为后世戏曲小说的素材，或成为后世诗文常用的典故，在中国文学史上具有重要地位，鲁迅先生称它为”一部名士底(的)教科书”。</p>
+<blockquote>
+<p>​    《世说新语》所记虽是片言数语，但内容非常丰富，广泛地反映了这一时期士族阶层的生活方式、精神面貌及其清谈放诞的风气，是记叙轶闻隽语的笔记小说的先驱，也是后来小品文的典范，对后世笔记小说的发展有着深远的影响，而仿照此书体例而写成的作品更不计其数，在古小说中自成一体。书中不少故事，或成为后世戏曲小说的素材，或成为后世诗文常用的典故，在中国文学史上具有重要地位，鲁迅先生称它为”一部名士底(的)教科书”。</p>
+</blockquote>
 ]]></content>
       <categories>
         <category>世说新语</category>
