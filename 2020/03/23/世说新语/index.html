@@ -44,7 +44,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://ww1.sinaimg.cn/large/c460dc30gy1gd51005lvkj20dw0dwjri.jpg">
 <meta property="article:published_time" content="2020-03-23T06:52:38.000Z">
-<meta property="article:modified_time" content="2020-03-25T16:13:58.066Z">
+<meta property="article:modified_time" content="2020-03-26T02:40:54.260Z">
 <meta property="article:author" content="log22">
 <meta property="article:tag" content="世说新语">
 <meta name="twitter:card" content="summary">
@@ -157,6 +157,11 @@
     <a href="/sitemap.xml" rel="section"><i class="fa fa-fw fa-sitemap"></i>Sitemap</a>
 
   </li>
+        <li class="menu-item menu-item-propose">
+
+    <a href="/propose/" rel="section"><i class="fa fa-fw fa-heart"></i>propose</a>
+
+  </li>
       <li class="menu-item menu-item-search">
         <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
         </a>
@@ -240,7 +245,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2020-03-26 00:13:58" itemprop="dateModified" datetime="2020-03-26T00:13:58+08:00">2020-03-26</time>
+                <time title="Modified: 2020-03-26 10:40:54" itemprop="dateModified" datetime="2020-03-26T10:40:54+08:00">2020-03-26</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -305,7 +310,7 @@
 <blockquote>
 <p>​    《世说新语》所记虽是片言数语，但内容非常丰富，广泛地反映了这一时期士族阶层的生活方式、精神面貌及其清谈放诞的风气，是记叙轶闻隽语的笔记小说的先驱，也是后来小品文的典范，对后世笔记小说的发展有着深远的影响，而仿照此书体例而写成的作品更不计其数，在古小说中自成一体。书中不少故事，或成为后世戏曲小说的素材，或成为后世诗文常用的典故，在中国文学史上具有重要地位，鲁迅先生称它为”一部名士底(的)教科书”。</p>
 </blockquote>
-<div align="center"><img src="http://ww1.sinaimg.cn/large/c460dc30gy1gd51005lvkj20dw0dwjri.jpg" width="100" height="100" ></div>
+<!-- <div align="center"><img src="http://ww1.sinaimg.cn/large/c460dc30gy1gd51005lvkj20dw0dwjri.jpg" width="100" height="100" ></div> -->
 
     </div>
     <div>
@@ -372,19 +377,19 @@
           
       <div class="tabs tabs-comment">
         <ul class="nav-tabs">
-            <li class="tab"><a href="#comment-valine">valine</a></li>
             <li class="tab"><a href="#comment-livere">livere</a></li>
+            <li class="tab"><a href="#comment-valine">valine</a></li>
         </ul>
         <div class="tab-content">
-            <div class="tab-pane valine" id="comment-valine">
-              <div class="comments" id="valine-comments"></div>
-            </div>
             <div class="tab-pane livere" id="comment-livere">
               
   <div class="comments">
     <div id="lv-container" data-id="city" data-uid="MTAyMC80OTE5MC8yNTY4NA"></div>
   </div>
   
+            </div>
+            <div class="tab-pane valine" id="comment-valine">
+              <div class="comments" id="valine-comments"></div>
             </div>
         </div>
       </div>
@@ -603,6 +608,22 @@
 
   
 
+<script>
+NexT.utils.loadComments(document.querySelector('#lv-container'), () => {
+  window.livereOptions = {
+    refer: location.pathname.replace(CONFIG.root, '').replace('index.html', '')
+  };
+  (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
+});
+</script>
+
 
 <script>
 NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
@@ -629,22 +650,6 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
       serverURLs : ''
     });
   }, window.Valine);
-});
-</script>
-
-<script>
-NexT.utils.loadComments(document.querySelector('#lv-container'), () => {
-  window.livereOptions = {
-    refer: location.pathname.replace(CONFIG.root, '').replace('index.html', '')
-  };
-  (function(d, s) {
-    var j, e = d.getElementsByTagName(s)[0];
-    if (typeof LivereTower === 'function') { return; }
-    j = d.createElement(s);
-    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-    j.async = true;
-    e.parentNode.insertBefore(j, e);
-  })(document, 'script');
 });
 </script>
 
